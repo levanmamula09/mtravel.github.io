@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTravel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles-mobile.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)and (max-width:1023px)"
+      href="../styles-tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1024px)"
+      href="../styles-desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-content-wrapper">
+      <!-- for mobile and tablets  -->
+      <header class="header-S">
+        <div class="nav-wrapper">
+          <a class="logo" href="../index.html">MTravel</a>
+          <button popovertarget="menu" class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <nav popover role="menu" id="menu">
+            <button
+              class="menu-btn"
+              popovertarget="menu"
+              popovertargetaction="hide"
+            >
+              <i class="fa-solid fa-x"></i>
+            </button>
+            <ul>
+              <li><a href="../index.html">მთავარი</a></li>
+              <li><a href="../AboutUs/index.html">ჩვენს შესახებ</a></li>
+              <li><a href="../InfoPage/index.html">ტურები</a></li>
+              <li><a href="../ServicePage/index.html">პაკეტები</a></li>
+              <li><a href="../ContactUs/index.html">კონტაქტი</a></li>
+              <li><a href="../LoginPage/index.html">შესვლა</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <!-- for mobile and tablets  -->
+
+      <!-- for desktops -->
+      <header class="header-L">
+        <a class="logo" href="../index.html">MTravel</a>
+        <nav class="nav-row">
+          <ul>
+            <li><a href="../index.html">მთავარი</a></li>
+            <li><a href="../AboutUs/index.html">ჩვენს შესახებ</a></li>
+            <li><a href="../InfoPage/index.html">ტურები</a></li>
+            <li><a href="../ServicePage/index.html">პაკეტები</a></li>
+            <li><a href="../ContactUs/index.html">კონტაქტი</a></li>
+            <li><a href="../LoginPage/index.html">შესვლა</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- for desktops -->
+      <main id="form" class="main-wrapper">
+        <form class="">
+          <div class="form-wrapper">
+            <div class="credentials-wrapper">
+              <label for="email-address" class="label"> ელ-ფოსტა </label>
+              <input
+                id="email-address"
+                name="email"
+                type="email"
+                required
+                class=""
+              />
+            </div>
+            <div class="credentials-wrapper">
+              <label for="password" class="label"> პაროლი </label>
+              <input
+                id="password"
+                name="password"
+                type="password"
+                required
+                class=""
+              />
+            </div>
+          </div>
+
+          <div class="checkbox-wrapper">
+            <div class="">
+              <input
+                id="remember-me"
+                name="remember-me"
+                type="checkbox"
+                class=""
+              />
+              <label for="remember-me" class=""> დაიმახსოვრე პაროლი </label>
+            </div>
+
+            <div class="recovery-pass">
+              <a href="#" class="rec-pass-link"> დაგავიწყდა პაროლი? </a>
+            </div>
+          </div>
+
+          <div class="login-btn-wrapper">
+            <button
+              type="submit"
+              class="login-btn"
+              style="vertical-align: middle"
+            >
+              <span>შესვლა</span>
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <footer>
+      <div class="social-media-container">
+        <a
+          target="_blank"
+          href="https://www.facebook.com"
+          class="social-media fb"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com"
+          class="social-media insta"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.twitter.com"
+          class="social-media twitter"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.pinterest.com/"
+          class="social-media pinterest"
+          ><i class="fa-brands fa-pinterest-p"></i
+        ></a>
+      </div>
+      <div class="privacy">
+        <a>privacy terms and conditions</a>
+        <p>all right reserved © <span>MTravel</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
