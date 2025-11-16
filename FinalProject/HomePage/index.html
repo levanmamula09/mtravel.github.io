@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MTravel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/styles-mobile.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 768px)and (max-width:1023px)"
+      href="../styles/styles-tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1024px)"
+      href="../styles/styles-desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- for mobile and tablets  -->
+    <header class="header-S">
+      <div class="nav-wrapper">
+        <a class="logo" href="../HomePage/index.html">MTravel</a>
+        <button popovertarget="menu" class="menu-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav popover role="menu" id="menu">
+          <button
+            class="menu-btn"
+            popovertarget="menu"
+            popovertargetaction="hide"
+          >
+            <i class="fa-solid fa-x"></i>
+          </button>
+          <ul>
+            <li><a href="../HomePage/index.html">მთავარი</a></li>
+            <li><a href="../AboutUs/index.html">ჩვენს შესახებ</a></li>
+            <li><a href="../InfoPage/index.html">ტურები</a></li>
+            <li><a href="../ServicePage/index.html">პაკეტები</a></li>
+            <li><a href="../ContactUs/index.html">კონტაქტი</a></li>
+            <li><a href="../LoginPage/index.html">შესვლა</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- for mobile and tablets  -->
+
+    <!-- for desktops -->
+    <header class="header-L">
+      <a class="logo" href="../HomePage/index.html">MTravel</a>
+      <nav class="nav-row">
+        <ul>
+          <li><a href="../HomePage/index.html">მთავარი</a></li>
+          <li><a href="../AboutUs/index.html">ჩვენს შესახებ</a></li>
+          <li><a href="../InfoPage/index.html">ტურები</a></li>
+          <li><a href="../ServicePage/index.html">პაკეტები</a></li>
+          <li><a href="../ContactUs/index.html">კონტაქტი</a></li>
+          <li><a href="../LoginPage/index.html">შესვლა</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- for desktops -->
+    <main>
+      <div class="sale-info">
+        უპრეცედენტო, 50%-იანი ფასდაკლება შერჩეულ პლანეტებზე სამოგზაუროდ:
+      </div>
+      <section class="slider-container">
+        <figure>
+          <div class="slide">
+            <h1>
+              3 დღიანი ტური დედამიწაზე <br />
+              <span class="old-price">1000000$ </span>500000$
+            </h1>
+            <img src="../images/earth.jpg" alt="earth" id="slide-2" />
+          </div>
+          <div class="slide">
+            <h1>
+              3 დღიანი ტური მარსზე <br /><span class="old-price">1000$ </span
+              >500$
+            </h1>
+            <img src="../images/mars.jpg" alt="Mars" id="slide-1" />
+          </div>
+          <div class="slide">
+            <h1>
+              4 დღიანი ტური სატურნზე <br /><span class="old-price">2000$ </span
+              >1000$
+            </h1>
+            <img src="../images/saturn.jpg" alt="Saturn" id="slide-3" />
+          </div>
+          <div class="slide">
+            <h1>
+              2 დღიანი ტური პლუტონზე<br />
+              <span class="old-price">1500$ </span>750$
+            </h1>
+            <img src="../images/pluto.jpg" alt="Pluto" id="slide-4" />
+          </div>
+        </figure>
+      </section>
+
+      <section class="tours">
+        <h1>ტურები</h1>
+        <div class="card-wrapper">
+          <div class="tour-card">
+            <h3>იუპიტერი</h3>
+            <img src="../images/jupiter.jpg" alt="jupiter" />
+            <p>ფასი: 2000$</p>
+            <p>თარიღი: 21.12.2025</p>
+            <p>დარჩენილია: 5 ადგილი</p>
+            <button class="card-btn">ყიდვა</button>
+          </div>
+          <div class="tour-card">
+            <h3>ურანი</h3>
+            <img src="../images/uranus.jpg" alt="uranus" />
+            <p>ფასი: 2100$</p>
+            <p>თარიღი: 22.12.2025</p>
+            <p>დარჩენილია: 4 ადგილი</p>
+            <button class="card-btn">ყიდვა</button>
+          </div>
+          <div class="tour-card">
+            <h3>ვენერა</h3>
+            <img src="../images/venus.jpg" alt="venus" />
+            <p>ფასი: 2200$</p>
+            <p>თარიღი: 23.12.2025</p>
+            <p>დარჩენილია: 3 ადგილი</p>
+            <button class="card-btn">ყიდვა</button>
+          </div>
+          <div class="tour-card">
+            <h3>ნეპტუნი</h3>
+            <img src="../images/neptune.jpg" alt="neptune" />
+            <p>ფასი: 2300$</p>
+            <p>თარიღი: 24.12.2025</p>
+            <p>დარჩენილია: 2 ადგილი</p>
+            <button class="card-btn">ყიდვა</button>
+          </div>
+        </div>
+        <div class="see-all">
+          <a href="../InfoPage/index.html">ყველას ნახვა</a>
+        </div>
+      </section>
+
+      <section class="partnership">
+        <h2>
+          გახდი <span>MTravel</span>-ის პარტნიორი და იმოგზაურე კოსმოსში უფრო
+          მეტი ფასდაკლებით
+        </h2>
+        <h1>პაკეტები</h1>
+        <div class="card-wrapper partnership-card-wrapper">
+          <div class="partnership-card card1">
+            <p>ფასი: 200$</p>
+            <p>მოქმედების ვადა: 1 წელი</p>
+            <ul>
+              <li>-25% ნებისმიერ ტურზე</li>
+              <li>რაკეტაში ჩასხდომის პრიორიტეტი</li>
+              <li>რაკეტაში ადგილის შერჩევა უფასოდ</li>
+              <li>უფასო ლანჩი</li>
+              <li>უფასო Wi-Fi</li>
+            </ul>
+            <button class="card-btn">ყიდვა</button>
+          </div>
+          <div class="partnership-card card2">
+            <p>ფასი: 130$</p>
+            <p>მოქმედების ვადა: 6 თვე</p>
+            <ul>
+              <li>-20% ნებისმიერ ტურზე</li>
+              <li>რაკეტაში ჩასხდომის პრიორიტეტი</li>
+              <li>რაკეტაში ადგილის შერჩევა უფასოდ</li>
+              <li>უფასო ლანჩი</li>
+              <li>უფასო Wi-Fi</li>
+            </ul>
+            <button class="card-btn">ყიდვა</button>
+          </div>
+          <div class="partnership-card card3">
+            <p>ფასი: 80$</p>
+            <p>მოქმედების ვადა: 3 თვე</p>
+            <ul>
+              <li>-15% ნებისმიერ ტურზე</li>
+              <li>რაკეტაში ჩასხდომის პრიორიტეტი</li>
+              <li>რაკეტაში ადგილის შერჩევა უფასოდ</li>
+              <li>უფასო ლანჩი</li>
+              <li>უფასო Wi-Fi</li>
+            </ul>
+            <button class="card-btn">ყიდვა</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <hr style="margin: 0;">
+    <footer>
+      <div class="social-media-container">
+        <a
+          target="_blank"
+          href="https://www.facebook.com"
+          class="social-media fb"
+          ><i class="fa-brands fa-facebook-f"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com"
+          class="social-media insta"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.twitter.com"
+          class="social-media twitter"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://www.pinterest.com/"
+          class="social-media pinterest"
+          ><i class="fa-brands fa-pinterest-p"></i
+        ></a>
+      </div>
+      <div class="privacy">
+        <a>privacy terms and conditions</a>
+        <p>all right reserved © <span>MTravel</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
